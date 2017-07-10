@@ -34,7 +34,7 @@ function createMainWindow() {
 
 app.on('ready', () => {
   // Register a 'CommandOrControl+Y' shortcut listener.
-  globalShortcut.register('0', () => {
+  globalShortcut.register('CommandOrControl+0', () => {
     // Do stuff when Y and either Command/Control is pressed.
     console.log('herro');
     mainWindow.webContents.toggleDevTools();
